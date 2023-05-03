@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <title>Netflix</title>
+    </head>
+    <body>
+        <section class="bg-[url('./Imágenes_netflix/fondo.jpg')] h-[100vh] w-[100vw]  mix-blend-overlay">
+            <nav class=" text-white flex justify-between items-center  h-[10vh] pt-4 mx-44">
+                <img class="w-[14%] h-[80%] " src="./Imágenes_netflix/Logonetflix.png" alt="">
+                <div class="flex gap-5">
+                    <select class="bg-[rgb(19,19,20)]" name="idiomas" id="idiomas">
+                        <option value="Espanol">Espanol</option>
+                        <option value="Ingles">Ingles</option>
+                    </select>
+                    <button class="bg-[rgb(229,9,20)] border-black roudend-lg">Iniciar sesion</button>
+                </div>
+            </nav>
+            <main class="text-black h-[80vh] flex flex-col justify-center">
+                <div class=" text-white flex flex-col  items-center">
+                    <h1 class="text-6xl">Películas y series ilimitadas y mucho más</h1>
+                    <p class="text-3xl mt-5">Disfruta donde quieras. Cancela cuando quieras.</p>
+                    <p class="text-2xl mt-5">¿Quieres ver Netflix ya? Ingresa tu email para crear una cuenta o reiniciar tu membresía de Netflix.</p>
+                    <div class="mt-4">
+                        <input class="bg-[rgb(19,19,20)]" type="email" placeholder ="email">
+                        <button class="bg-[rgb(229,9,20)]  bg-red">Comenzar</button>
+                    </div>
+                </div>
+            </main>
+        </section>
+    </body>
+</html>
