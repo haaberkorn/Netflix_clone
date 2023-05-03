@@ -1,0 +1,130 @@
+/* Pregunta 1 */
+.respuesta{
+    background: rgb(35,35,35); 
+    height: 0px;
+    transition: height 300ms linear ;
+    overflow: hidden;
+    color: transparent;
+
+
+}
+
+.pregunta:hover{
+    background: rgb(64,64,64);
+    
+}
+.pregunta:focus + .respuesta{
+    height: 240px;
+    padding: 24px;
+    color: white;
+}
+
+
+.respuesta-2{
+    background: rgb(35,35,35); 
+    height: 0px;
+    transition: height 300ms linear ;
+    overflow: hidden;
+    color: transparent;
+
+
+}
+
+/* Pregunta 2 */
+.pregunta-2:hover{
+    background: rgb(64,64,64);
+    
+}
+.pregunta-2:focus + .respuesta-2{
+    height: 120px;
+    padding: 24px;
+    color: white;
+}
+
+.respuesta-3{
+    background: rgb(35,35,35); 
+    height: 0px;
+    transition: height 300ms linear ;
+    overflow: hidden;
+    color: transparent;
+
+
+}
+
+/* Pregunta 3 */
+.pregunta-3:hover{
+    background: rgb(64,64,64);
+    
+}
+.pregunta-3:focus + .respuesta-3{
+    height: 270px;
+    padding: 24px;
+    color: white;
+}
+
+/* Pregunta 4 */
+
+.respuesta-4{
+    background: rgb(35,35,35); 
+    height: 0px;
+    transition: height 300ms linear ;
+    overflow: hidden;
+    color: transparent;
+
+
+}
+
+.pregunta-4:hover{
+    background: rgb(64,64,64);
+    
+}
+.pregunta-4:focus + .respuesta-4{
+    height: 120px;
+    padding: 24px;
+    color: white;
+}
+
+/* Pregunta 5 */
+
+.respuesta-5{
+    background: rgb(35,35,35); 
+    height: 0px;
+    transition: height 300ms linear ;
+    overflow: hidden;
+    color: transparent;
+
+
+}
+
+.pregunta-5:hover{
+    background: rgb(64,64,64);
+    
+}
+.pregunta-5:focus + .respuesta-5{
+    height: 270px;
+    padding: 24px;
+    color: white;
+}
+
+
+/* Pregunta 6 */
+
+.respuesta-6{
+    background: rgb(35,35,35); 
+    height: 0px;
+    transition: height 300ms linear ;
+    overflow: hidden;
+    color: transparent;
+
+
+}
+
+.pregunta-6:hover{
+    background: rgb(64,64,64);
+    
+}
+.pregunta-6:focus + .respuesta-6{
+    height: 120px;
+    padding: 24px;
+    color: white;
+}
